@@ -9,7 +9,7 @@
 
 ## Solución del reto
 
-- El reso se abordó con una solución de Laravel + MongoDB
+- El reto se abordó con una solución de Laravel + MongoDB
 - Se exportaron todos los datos en formato excel desde https://www.correosdemexico.gob.mx/SSLServicios/ConsultaCP/CodigoPostal_Exportar.aspx
 - Luego se transformaron los datos a formato json para posteriormente subirlos a una cuenta MongoDB Cloud.
 
@@ -17,7 +17,7 @@
 - Se creó un controlador: BackbonesApiController donde la funcioón usada fue show($zip_code)
 - Se creó un modelo con los atributos correspondientes.
 - Se creó el endpint api/zip_codes/{zip_code}
-- Se probaron localmente los tiempos de respeusta de mongodb (se usó un cluster gratuit)
+- Se probaron localmente los tiempos de respeusta de mongodb (se usó un cluster gratuita)
 
 - Finalmente se usó heroku para hacer el deploy de la api.
 
