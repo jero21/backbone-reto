@@ -18,7 +18,7 @@
 - Se creó un modelo "Zip" con los atributos correspondientes.
 - Se creó el endpint api/zip_codes/{zip_code}
 - Se usó una función para quitar los tíldes a las vocales para poder cumplir con el formato solicitado.
-- Se probaron localmente los tiempos de respeusta de mongodb (se usó un cluster gratuita)
+- Se probaron localmente los tiempos de respeusta de mongodb (se usó Postman para las pruebas de la API)
 
 - Finalmente se usó heroku para hacer el deploy de la api.
 
