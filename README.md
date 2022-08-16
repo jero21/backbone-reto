@@ -14,10 +14,10 @@
 - Luego se transformaron los datos a formato json para posteriormente subirlos a una cuenta MongoDB Cloud.
 
 - Desde Laravel se instalaron los packages necesarios para trabajar con mongodb, así poder usar eloquent.
-- Se creó un controlador "BackbonesApiController" donde la funcioón usada fue show($zip_code)
+- Se creó un controlador "BackbonesApiController" donde la función usada fue show($zip_code)
 - Se creó un modelo "Zip" con los atributos correspondientes.
 - Se creó el endpint api/zip_codes/{zip_code}
-- Se usó una funsión para quitar los tíldes a las vocales para poder cumplir con el formato solicitado.
+- Se usó una función para quitar los tíldes a las vocales para poder cumplir con el formato solicitado.
 - Se probaron localmente los tiempos de respeusta de mongodb (se usó un cluster gratuita)
 
 - Finalmente se usó heroku para hacer el deploy de la api.
